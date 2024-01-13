@@ -12,6 +12,18 @@ The last step of the analysis was to calculate the balanced accuracy score of th
 
 The model has a fairly high balanced accuracy score of 0.95. The classification report produced indicates that the model is able to predict both types of loans (healthy and high-risk) with a high degree of precision and accuracy. Healthy loans (`0`) have a very high accuracy and recall of 1.0 and 0.99, while high-risk loans (`1`) have slightly lower accuracy and recall of 0.85 and 0.91.
 
+Model:
+- Balanced accuracy score: 0.95
+- Accuracy from classification report: 0.99
+
+Healthy loans:
+- Precision: 1.0
+- Recall: 0.99
+
+High-risk loans:
+- Precision: 0.85
+- Recall: 0.91
+
 ## Summary
 
 Overall, the model performs well and is able to predict both types of loans with a high degree of accuracy and precision, although it is better at predicting healthy loans than high-risk loans. However, I would still recommend using this model as it has a very high overall accuracy of 0.99.
